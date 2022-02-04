@@ -72,7 +72,6 @@ header .header {
 }
 
 .sections_container {
-    background: url(../images/bg_main_banner.jpg);
     background-size: 100%;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -123,24 +122,24 @@ header .header {
     height: 100%;
 }
 #main_banner {
-    background-image: url();
+    background: url(../images/bg_main_banner.jpg);
     background-size: 100%;
     background-position: bottom;
     background-repeat: no-repeat;
     height: 645px;
 }
-.made_simple_container {
+.section_made_simple_content {
     background-color: white;
     width: 90%;
     height: 100%;
     margin: 0 auto;
 }
-.made_simple_container_principal_text {
+.made_simple_content_principal_text {
     background-color: white;
     padding-left: 400px;
     padding-right: 400px;
 }
-.made_simple_container_principal_text h1{
+.made_simple_content_principal_text h1{
     text-align: center;
     justify-content: center;
     font-size: 45px;
@@ -148,16 +147,16 @@ header .header {
     color: #272D4E;
     margin: 0 auto;
 }
-.made_simple_container_images {
+.made_simple_content_images {
     width: 100%;
     height: 100%;
 
 }
-.made_simple_container_images img{
+.made_simple_content_images img{
     width: 100%;
     padding-top: 50px;
 }
-.made_simple_container_text {
+.made_simple_content_text {
     background-color: white;
     width: 100%;
     height: 50%;
@@ -277,12 +276,12 @@ width: 35%;
 .section_agencies_image img{
     width: 100%;
 }
-.real_people {
+.section_real_people {
     background-color: white;
     width: 90%;
     margin: 0px auto;
 }
-.real_people_container_text h1{
+.section_real_people_content_text h1{
     font-size: 40px;
     font-family: 'Roboto';
     color: #272D4E;
@@ -290,14 +289,14 @@ width: 35%;
     justify-content: center;
     text-align: center;
 }
-.real_people_container_text p{
+.section_real_people_content_text p{
     font-size: 14px;
     font-family: 'Roboto';
     text-align: center;
     color: #94A2B3;
     padding: 0px 330px 0px 330px;;
 }
-.real_people img {
+.section_real_people img {
     width: 100%;
 }
 .footer {
@@ -323,7 +322,7 @@ width: 35%;
     background-repeat: no-repeat;
     background-size: 100%;
 }*/
-.get_started_container {
+.get_started_content{
     display: flex;
     justify-content: space-around;
     width: 70%;
@@ -331,13 +330,13 @@ width: 35%;
     margin-top: -10px;
     padding-top: 35px;
 }
-.get_started_container p{
+.get_started_content p{
     width: 70%;
     font-size: 24px;
     font-family: Roboto;
     color: rgb(255, 255, 255)
 }
-.get_started_container a{
+.get_started_content a{
     font-family: Roboto;
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -348,25 +347,25 @@ width: 35%;
     margin:  40px 0px 50px 50px;
     padding: 20px 45px 20px 45px;
 }
-.services_container{
+.services_content{
     background-color: #7854F7;
 }
-.services_container_support{
+.services_content_support{
     margin-bottom: 25px;
 }
-.services_container_support_img_support img{
+.services_content_support_img_support img{
     width: 80%;
     display: block;
     margin: auto;
     padding-top: 70px;
     padding-bottom: 80px;
 }
-.services_container_support_logo img{
+.services_content_support_logo img{
     width: 15%;
     display: block;
     margin: auto;
 }
-.services_container_links{
+.services_content_links{
     display: flex;
     justify-content: space-around;
     width: 70%;
@@ -399,7 +398,7 @@ width: 35%;
     text-decoration: none;
     color: white;
 }
-.final_white_section_container {
+.final_white_section_content{
     display: flex;
 }
 .social_networks{
