@@ -175,7 +175,7 @@ header .header {
 }
 .made_simple_content_sections{
     display: flex;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
 }
 .made_simple_section_need,
@@ -210,6 +210,7 @@ header .header {
     font-size: 14px;
     font-family: 'Roboto';
     color: #94a2b3;
+    margin-bottom: 10px;
 }
 .made_simple_a{
     font-size: 16px;
@@ -219,19 +220,18 @@ header .header {
     color: #299EF3;
 }
 .made_simple_section_need_text{
-    margin-top: -10%;
-    margin-left: 5%;
+    margin-left: 20%;
     padding-right: 5%; 
 }
 .made_simple_section_customize_text{
-    margin-top: -5%;
-    margin-left: 5%;
+    margin-top: 10%;
+    margin-left: 20%;
     padding-right: 5%;
 }
 .made_simple_section_active_text{
-    margin-top: -2%;
-    margin-left: 5%;
-    padding-right: 5%; 
+    margin-top: 10%;
+    margin-left: 20%;
+    padding-right: 5%;
 }
 
 #purple_documentation {
