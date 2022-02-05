@@ -343,11 +343,11 @@ header .header {
 
 .section_real_people {
     background-color: white;
-    width: 90%;
+    width: 100%;
     margin: 0px auto;
 }
 
-.section_real_people_content_text h1 {
+.real_people_content_text h1 {
     font-size: 40px;
     font-family: 'Roboto';
     color: #272D4E;
@@ -356,13 +356,12 @@ header .header {
     text-align: center;
 }
 
-.section_real_people_content_text p {
-    font-size: 14px;
+.real_people_content_text p {
+    font-size: 13px;
     font-family: 'Roboto';
     text-align: center;
     color: #94A2B3;
-    padding: 0px 330px 0px 330px;
-    ;
+    padding: 30px 450px 30px 450px;
 }
 
 .section_real_people img {
@@ -370,9 +369,7 @@ header .header {
 }
 
 .footer {
-    height: 540px;
-    border-bottom: 2px solid white;
-    width: 90%;
+    width: 100%;
     height: 100%;
     margin: 0 auto;
     align-items: center;
@@ -400,7 +397,8 @@ header .header {
     width: 70%;
     margin: 0px auto;
     margin-top: -10px;
-    padding-top: 35px;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 .get_started_content p {
@@ -418,7 +416,6 @@ header .header {
     font-weight: 500;
     border: solid #FFFFFF;
     border-radius: 60px;
-    margin: 40px 0px 50px 50px;
     padding: 20px 45px 20px 45px;
 }
 
@@ -430,12 +427,22 @@ header .header {
     margin-bottom: 25px;
 }
 
-.services_content_support_img_support img {
-    width: 80%;
-    display: block;
-    margin: auto;
-    padding-top: 70px;
+.services_content_support_gral{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
     padding-bottom: 80px;
+}
+.services_content_support_gral a{
+    display: flex;
+    text-decoration: none;
+}
+.services_content_support_gral a p{
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: 'Roboto';
+    padding-top: 15px;
+    padding-left: 15px;
 }
 
 .services_content_support_logo img {
@@ -452,7 +459,6 @@ header .header {
     padding-bottom: 30px;
     border-top: 1px solid rgb(205, 210, 218);
     padding-top: 30px;
-    text-align: center;
 }
 
 .columns_links {
@@ -485,6 +491,8 @@ header .header {
 
 .final_white_section_content {
     display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px
 }
 
 .social_networks {
@@ -509,8 +517,12 @@ header .header {
     text-align: center;
     margin-top: 20px
 }
-
+.text_final_section p{
+    color: #272D4E;
+    margin-top: 12px;
+}
 .text_final_section a {
+    color: #272D4E;
     margin-top: 12px;
 }
 
