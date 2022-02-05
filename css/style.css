@@ -324,7 +324,7 @@ header .header {
     display: flex;
     flex-direction: column;
 }
-.agencies_content_text_1 h3{
+.agencies_content_text_1 h2{
     font-size: 40px;
     font-family: 'Roboto';
     color: #272D4E;
