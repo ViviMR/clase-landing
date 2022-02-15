@@ -50,8 +50,9 @@
     font-size: 17px;
     transition: all 0.5s;
 }
-.button_igual {
-    width: 79%;
+.button_igual,
+.button_borrar {
+    width: 25%;
     background: black;
     color: orange;
     margin: 3px 0;
@@ -63,13 +64,15 @@
 }
 .button_number:active,
 .button_calcular:active,
-.button_igual:active {
+.button_igual:active,
+.button_borrar:active {
     background: rgb(255, 255, 255);
     color: black;
 }
 .button_number:hover,
 .button_calcular:hover,
-.button_igual:hover {
+.button_igual:hover,
+.button_borrar:hover {
     -webkit-box-shadow: inset -8px -6px 0px -1px #bea345;
     box-shadow: inset -8px -6px 0px -1px #bea345;
     cursor: pointer;
