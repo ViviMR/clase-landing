@@ -11,6 +11,7 @@ window.addEventListener("load", function () {
     let buttonEight = document.querySelector('#eight')
     let buttonNine = document.querySelector('#nine')
     let buttonZero = document.querySelector('#zero')
+    let opSuma = document.querySelector('#suma')
     let espacioDeLosNumeros = document.querySelector('#campo')
 
     buttonOne.addEventListener('click',function(){
@@ -64,4 +65,5 @@ window.addEventListener("load", function () {
         /* console.log('2') */
         espacioDeLosNumeros.value = valorDeLosNumeros+0
     })
+
 })
