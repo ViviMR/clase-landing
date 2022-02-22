@@ -1,4 +1,20 @@
-let arrayNumeros = [1, 20, 33, 22, 31, 1, 0, 222, 33, 22, 535, 73];
+window.addEventListener('load', () => {
+  console.log('Document load')
+})
+let numbers = document.querySelector('#numbers')
+
+let buttonPares = document.querySelector('#button_pares')
+let buttonImpares = document.querySelector('#button_impares')
+
+let arrayNumbers = [1, 20, 33, 22, 31, 1, 0, 222, 33, 22, 535, 73];
+
+buttonPares.addEventListener('click', () => Calcular )
+buttonImpares.addEventListener('click', () => Calcular )
+
+const Calcular = 
+
+
+/*
 let pares = arrayNumeros.filter(function(num){
     return num % 2 == 0;
   });
@@ -8,5 +24,4 @@ let pares = arrayNumeros.filter(function(num){
   let impares = arrayNumeros.filter(function(num){
       return num % 2 === 1;
   }); 
-  console.log(impares);
-/*const resultArrayNumerosPares = array.find(element => element )*/
+  console.log(impares);*/

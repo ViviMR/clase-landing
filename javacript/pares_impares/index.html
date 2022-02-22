@@ -1,12 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        h1 {
+            display: flex;
+            justify-content: center;
+            font-size: 40px;
+            font-family: 'Lucida Sans';
+        }
+
+        p {
+            font-family: 'Lucida Sans';
+            font-size: 18px;
+
+        }
+
+        .list_numbers {
+            display: flex;
+            justify-content: space-around;
+            font-size: 18px;
+            font-family: 'Lucida Sans';
+        }
+
+        .buttons button {
+            font-size: 20px;
+            font-family: 'Lucida Sans';
+        }
+
+        .button_pares {
+            background-color: aqua;
+        }
+
+        .button_impares {
+            background-color: violet;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <h1>Números pares e impares</h1>
+    <p>
+        Escribe tu lista de números
+    </p>
+    <div class="numbers" id="numbers">
+        <ul>
+            <li>1</li>
+            <li>20</li>
+            <li>33</li>
+            <li>22</li>
+            <li>31</li>
+            <li>11</li>
+            <li>0</li>
+            <li>222</li>
+            <li>33</li>
+            <li>22</li>
+            <li>535</li>
+            <li>73</li>
+        </ul>
+        <!--<input type="number">-->
+
+        <!--<div class="list_numbers">
+            <option value="1">1</option>
+            <option value="2">20</option>
+            <option value="3">33</option>
+            <option value="4">22</option>
+            <option value="5">31</option>
+            <option value="6">11</option>
+            <option value="7">0</option>
+            <option value="8">222</option>
+            <option value="9">33</option>
+            <option value="10">22</option>
+            <option value="11">535</option>
+            <option value="12">73</option> -->
+    </div>
+    </div>
+    <div class="buttons">
+        <button class="button_pares" id="button_pares">
+            Números pares
+        </button>
+        <button class="button_impares" id="button_impares">
+            Números impares
+        </button>
+    </div>
+
+
+    <script src="./script.js"></script>
 </body>
+
 </html>
