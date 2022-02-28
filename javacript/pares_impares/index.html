@@ -16,7 +16,8 @@
 
         p {
             font-family: 'Lucida Sans';
-            font-size: 18px;
+            font-size: 20px;
+            margin-top: 50px;
 
         }
 
@@ -28,8 +29,11 @@
         }
 
         .buttons button {
-            font-size: 20px;
+            font-size: 15px;
             font-family: 'Lucida Sans';
+            margin-top: 30px;
+            margin-left: 30px;
+
         }
 
         .button_pares {
@@ -38,6 +42,19 @@
 
         .button_impares {
             background-color: violet;
+        }
+
+        .numbers input {
+            margin: 10px 10px 10px 10px;
+        }
+
+        .results {
+            margin-top: 20px;
+            background: rgb(241, 6, 6);
+            height: 30px;
+            border: none;
+            border-radius: 10px;
+
         }
     </style>
 </head>
@@ -48,7 +65,21 @@
         Escribe tu lista de números
     </p>
     <div class="numbers" id="numbers">
-        <ul>
+
+        <input type="number">
+        <input type="number">
+        <input type="number">
+        <input type="number">
+        <input type="number">
+        <input type="number">
+        <input type="number">
+        <input type="number">
+        <input type="number">
+        <input type="number">
+        <input type="number">
+        <input type="number">
+
+        <!--<ul>
             <li>1</li>
             <li>20</li>
             <li>33</li>
@@ -61,8 +92,8 @@
             <li>22</li>
             <li>535</li>
             <li>73</li>
-        </ul>
-        <!--<input type="number">-->
+        </ul>-->
+
 
         <!--<div class="list_numbers">
             <option value="1">1</option>
@@ -80,12 +111,16 @@
     </div>
     </div>
     <div class="buttons">
+        <!--<input type="button" value=" " id="button_pares"> -->
         <button class="button_pares" id="button_pares">
-            Números pares
+            ¿Cuales son números pares?
         </button>
         <button class="button_impares" id="button_impares">
-            Números impares
+            ¿Cuales son números impares?
         </button>
+    </div>
+    <div class="results">
+        <input type="number" name="resultados" id="campo_result">
     </div>
 
 

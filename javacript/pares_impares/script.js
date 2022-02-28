@@ -8,10 +8,8 @@ let buttonImpares = document.querySelector('#button_impares')
 
 let arrayNumbers = [1, 20, 33, 22, 31, 1, 0, 222, 33, 22, 535, 73];
 
-buttonPares.addEventListener('click', () => Calcular )
-buttonImpares.addEventListener('click', () => Calcular )
-
-const Calcular = 
+buttonPares.addEventListener('click', () => ('button_pares') )
+buttonImpares.addEventListener('click', () => ('button_impares') )
 
 
 /*
