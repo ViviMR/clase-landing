@@ -1,0 +1,39 @@
+.acordeon {
+    width: 100%;
+    display: block;
+}
+
+.acordeon-container {
+    width: 60%;
+    margin: 0 auto;
+    border: 1px solid gray;
+}
+
+.acordeon-item {
+}
+
+.acordeon-item .title {
+    padding: 5px 10px;
+    border: 1px solid gray;
+    margin: 0;
+}
+
+.acordeon-item .title:hover {
+    border: 1px solid gray;
+    color: white;
+    background: gray;
+    cursor: pointer;
+}
+
+.acordeon-item .content {
+    padding: 5px 10px;
+    overflow: hidden;
+    height: 0;
+}
+.acordeon-item .content.active {
+    height: auto;
+}
+
+.acordeon-item .title h2 {
+    margin: 0;
+}
