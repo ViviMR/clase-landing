@@ -1,0 +1,8 @@
+.content-body {
+    overflow-x: hidden;
+}
+
+.content p {
+    background: yellow;
+    width: 1200px;
+}
